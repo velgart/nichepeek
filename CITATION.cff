@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use nichepeek, please cite the software and the accompanying paper."
+title: "nichepeek: cell-type label error in spatial niche analyses"
+version: "0.3.5"
+date-released: 2026-11-19
+license: BSD-3-Clause
+authors:
+  - family-names: Elgart
+    given-names: Vlad
+  - family-names: Loscalzo
+    given-names: Joseph
+preferred-citation:
+  type: article
+  title: "Cell-type label errors inflate neighborhood effects and can reverse niche claims in spatial transcriptomics"
+  authors:
+    - family-names: Elgart
+      given-names: Vlad
+    - family-names: Loscalzo
+      given-names: Joseph
+  year: 2026
+  notes: "Preprint; identifier to be added"

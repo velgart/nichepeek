@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "nichepeek"
+version = "0.3.5"
+description = "Does cell-type label error bias your spatial niche analysis? A diagnostic with count splitting and channel decomposition."
+readme = "README.md"
+license = { text = "BSD-3-Clause" }
+requires-python = ">=3.10"
+authors = [{ name = "Vlad Elgart" }, { name = "Joseph Loscalzo" }]
+dependencies = ["numpy>=1.24", "scipy>=1.10", "pandas>=2.0", "anndata>=0.10", "h5py>=3.8", "scikit-learn>=1.3", "matplotlib>=3.7"]
+classifiers = ["Programming Language :: Python :: 3", "Topic :: Scientific/Engineering :: Bio-Informatics"]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[project.scripts]
+nichepeek = "nichepeek.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/nichepeek"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
