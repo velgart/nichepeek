@@ -19,4 +19,5 @@ preferred-citation:
     - family-names: Loscalzo
       given-names: Joseph
   year: 2026
-  notes: "Preprint; identifier to be added"
+  journal: "bioRxiv"
+  doi: "10.64898/2026.11.23.768633"

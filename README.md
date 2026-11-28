@@ -141,5 +141,5 @@ the column name `S3` here (e.g. `a_S3`), so that the result tables deposited wit
 
 ## Citation
 
-Elgart V, Loscalzo J. Cell-type label errors inflate neighborhood effects and can reverse niche claims in spatial transcriptomics (preprint;
-identifier to be added). Software: nichepeek 0.3.5, doi:10.5281/zenodo.23987423 (https://doi.org/10.5281/zenodo.23987423).
+Elgart V, Loscalzo J. Cell-type label errors inflate neighborhood effects and can reverse niche claims in spatial transcriptomics. bioRxiv, 2026;
+doi:10.64898/2026.11.23.768633. Software: nichepeek 0.3.5, doi:10.5281/zenodo.23987423 (https://doi.org/10.5281/zenodo.23987423).
